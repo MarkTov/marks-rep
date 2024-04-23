@@ -1,13 +1,13 @@
-word = "men"
-neword = "nem"
-for y in word:
-    print(y)
-for x in neword:
-    print(x)
+word = "two"
+neword = "otw"
 
-if y == x:
-        print("They are polidroms")
+
+x1 = neword[2] +neword[1] +neword[0]
+
+
+if word == x1:
+    print("They are polidroms")
 
 else:
-        print("they aren`t")
+    print("they aren`t")
     
